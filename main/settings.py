@@ -133,11 +133,12 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'phrmst@gmail.com'
-EMAIL_HOST_PASSWORD = 'yymfbwzouygbpkvc'
-EMAIL_USE_TLS = True
+EMAIL_USE_SSL = True
+EMAIL_HOST = 'sg1-ss19.a2hosting.com'
+EMAIL_HOST_USER = 'admin@rupga.net'
+EMAIL_HOST_PASSWORD = 'emailpassword'
+EMAIL_PORT = 465
+
 
 
 DJOSER = {
